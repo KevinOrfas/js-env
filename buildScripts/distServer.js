@@ -20,8 +20,8 @@ app.get('/', function(req, res){
 app.get('/users', function(req, res) {
   // Hard coding for simplicity. Pretend this hits a real database
   res.json([
-    {"id": 1,"firstname":"Kevin","lastname":"Orfas", "email": "orfas@g.com"},
-    {"id": 2,"firstname":"Anastasis","lastname":"Orfanidis", "email": "orfas@g.com"}
+    {"id": 1,"firstName":"Kevin","lastName":"Orfas", "email": "orfas@g.com"},
+    {"id": 2,"firsName":"Anastasis","lastName":"Orfanidis", "email": "orfas@g.com"}
   ]);
 });
 
